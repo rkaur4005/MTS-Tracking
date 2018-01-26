@@ -1,0 +1,78 @@
+/* header  css*/
+app-header .example-fill-remaining-space {
+    flex: auto;
+}
+app-header .mat-toolbar {
+    border-bottom: 4px solid #006d85;
+    color: #777;
+}
+app-header .mat-toolbar-row {
+    flex-wrap: wrap !important;
+   
+}
+app-header .mat-list {
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+app-header .material-icons {
+    padding-bottom: -10px;
+}
+app-header .md-icon-button {
+    font-size: bold;
+    font-weight: 26px;
+}
+/* app- header Css End*/
+
+/* mts view css Start*/
+app-mts .panel-heading {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    border-top: 4px solid #006d85;
+    font-size: 12px;
+    color: #676a6c;
+}
+app-mts .mat-toolbar-row {
+    height: 100% !important;
+    flex-wrap: wrap !important;
+    white-space: normal!important;
+}
+app-mts md-sidenav-container {
+    flex-direction: column nowrap;
+    display: flex;
+    height: 100vh;
+    flex: 1 1 auto;
+}
+app-mts .mat-table {
+    display: block;
+}
+/* mts view css End*/
+
+/* mts2 view css Start */
+app-mts2 th {
+    color:black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 12px;
+}
+app-mts2 td {
+    width: 33.33%;
+    color: #676a6c;
+    font-weight:bold;
+    margin-left:3px;
+    text-align: left;
+    font-size: 12px;
+}
+app-mts2 .mat-toolbar-row {
+    height: 100% !important;
+    flex-wrap: wrap !important;
+    white-space: normal!important;
+}
+ 
+/* mts2 view Css End*/
+a {
+    cursor: pointer;
+}
+
+.help-block {
+    font-size: 12px;
+}
